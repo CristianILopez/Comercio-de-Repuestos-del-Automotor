@@ -30,7 +30,8 @@ namespace Capa_UI
 
         private void button2_Click(object sender, EventArgs e)
         {
-          
+            FRMVentaVendedor frm = new FRMVentaVendedor();
+            frm.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)

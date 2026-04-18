@@ -24,7 +24,13 @@ namespace Capa_UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-         
+          string var = textBox1.Text;
+
+        if (var == "cristian")
+            {
+                UIGerente frm = new UIGerente();
+                frm.ShowDialog();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

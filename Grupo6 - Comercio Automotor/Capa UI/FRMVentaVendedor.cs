@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FRMVentas : Form
+    public partial class FRMVentaVendedor : Form
     {
-        public FRMVentas()
+        public FRMVentaVendedor()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
