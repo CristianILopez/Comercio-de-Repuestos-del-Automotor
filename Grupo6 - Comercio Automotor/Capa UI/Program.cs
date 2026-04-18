@@ -16,7 +16,7 @@ namespace Capa_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FRMVendedor());
+            Application.Run(new Login());
         }
     }
 }

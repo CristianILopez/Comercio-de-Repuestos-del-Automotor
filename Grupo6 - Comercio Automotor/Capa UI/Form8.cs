@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class Form8 : Form
+    public partial class FRMPrecios : Form
     {
-        public Form8()
+        public FRMPrecios()
         {
             InitializeComponent();
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTNAgregar_Click(object sender, EventArgs e)
+        {
+            FRMModPrecio frm = new FRMModPrecio();
+            frm.ShowDialog();
         }
     }
 }

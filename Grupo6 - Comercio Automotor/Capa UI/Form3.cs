@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class Form3 : Form
+    public partial class FRMNuevoPedido : Form
     {
-        public Form3()
+        public FRMNuevoPedido()
         {
             InitializeComponent();
+        }
+
+        private void BTNSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*Generar Factura, agregar datos en la db y mostrar mensaje de confirmacion en pantalla*/
+            MessageBox.Show("Compra realizada con exito, Generando factura.");
         }
     }
 }

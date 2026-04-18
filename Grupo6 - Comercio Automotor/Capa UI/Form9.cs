@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class Form9 : Form
+    public partial class FRMModPrecio : Form
     {
-        public Form9()
+        public FRMModPrecio()
         {
             InitializeComponent();
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FRMVendedor : Form
+    public partial class FRMVentas : Form
     {
-        public FRMVendedor()
+        public FRMVentas()
         {
             InitializeComponent();
         }
@@ -33,6 +33,23 @@ namespace Capa_UI
         {
             FRMCarrito FRM = new FRMCarrito();
             FRM.Show();
+        }
+
+        private void DGVListado_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void BTNBuscar_Click(object sender, EventArgs e)
+        {
+            /*realizar la busqueda en la base de datos*/
+        }
+
+        private void BTNAgregar_Click(object sender, EventArgs e)
+        {
+            /*agregar pieza y cantidad al carrito*/
+
+            MessageBox.Show("Agrega pieza N°... con X unidades");
         }
     }
 }

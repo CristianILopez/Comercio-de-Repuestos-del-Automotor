@@ -1,6 +1,6 @@
 ﻿namespace Capa_UI
 {
-    partial class Form8
+    partial class FRMPrecios
     {
         /// <summary>
         /// Required designer variable.
@@ -46,6 +46,7 @@
             this.BTNAgregar.TabIndex = 19;
             this.BTNAgregar.Text = "Modificar Precio y Fecha";
             this.BTNAgregar.UseVisualStyleBackColor = true;
+            this.BTNAgregar.Click += new System.EventHandler(this.BTNAgregar_Click);
             // 
             // DGVListado
             // 
@@ -71,6 +72,7 @@
             this.BTNCancelar.TabIndex = 16;
             this.BTNCancelar.Text = "Cancelar";
             this.BTNCancelar.UseVisualStyleBackColor = true;
+            this.BTNCancelar.Click += new System.EventHandler(this.BTNCancelar_Click);
             // 
             // BTNBuscar
             // 
@@ -97,7 +99,7 @@
             this.textBox1.Size = new System.Drawing.Size(634, 20);
             this.textBox1.TabIndex = 22;
             // 
-            // Form8
+            // FRMPrecios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +111,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.BTNCancelar);
             this.Controls.Add(this.BTNBuscar);
-            this.Name = "Form8";
+            this.Name = "FRMPrecios";
             this.Text = "Consultas de Precios";
             ((System.ComponentModel.ISupportInitialize)(this.DGVListado)).EndInit();
             this.ResumeLayout(false);

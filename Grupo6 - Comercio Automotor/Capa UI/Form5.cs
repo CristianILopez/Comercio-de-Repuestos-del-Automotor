@@ -16,5 +16,21 @@ namespace Capa_UI
         {
             InitializeComponent();
         }
+
+        private void BTNAgregar_Click(object sender, EventArgs e)
+        {
+            FRMModPieza fRM = new FRMModPieza("Modificar Pieza");
+            fRM.Show();
+        }
+
+        private void BTNCarro_Click(object sender, EventArgs e)
+        {
+            /*Buscar Pieza en bd y eliminarla mediante un procedimiento*/
+        }
+
+        private void BTNCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

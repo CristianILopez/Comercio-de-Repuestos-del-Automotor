@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class Form7 : Form
+    public partial class FRMVentas : Form
     {
-        public Form7()
+        public FRMVentas()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace Capa_UI
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
