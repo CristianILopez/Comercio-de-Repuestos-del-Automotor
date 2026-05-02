@@ -159,7 +159,7 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Categoria";
             // 
-            // FRMVendedor
+            // FRMVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,8 +173,9 @@
             this.Controls.Add(this.CHKItem);
             this.Controls.Add(this.BTNCancelar);
             this.Controls.Add(this.BTNBuscar);
-            this.Name = "FRMVendedor";
+            this.Name = "FRMVentas";
             this.Text = "Lista de Venta";
+            this.Load += new System.EventHandler(this.FRMVentas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGVListado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

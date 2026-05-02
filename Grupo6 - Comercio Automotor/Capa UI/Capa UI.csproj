@@ -120,6 +120,12 @@
     <Compile Include="UIGerente.Designer.cs">
       <DependentUpon>UIGerente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendedor.Designer.cs">
+      <DependentUpon>Vendedor.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +170,9 @@
     </Compile>
     <EmbeddedResource Include="UIGerente.resx">
       <DependentUpon>UIGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendedor.resx">
+      <DependentUpon>Vendedor.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

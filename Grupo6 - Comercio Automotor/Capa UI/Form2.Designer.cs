@@ -92,6 +92,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "Agregar Pieza";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // FRMCarrito
             // 
@@ -106,6 +107,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "FRMCarrito";
             this.Text = "Carrito de Compras";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FRMCarrito_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

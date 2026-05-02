@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CEntidades;
+using CNegocio;
 
 namespace Capa_UI
 {
@@ -24,13 +26,31 @@ namespace Capa_UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-          string var = textBox1.Text;
-
-        if (var == "cristian")
+            try
             {
-                UIGerente frm = new UIGerente();
-                frm.ShowDialog();
+                // 1. Captura de datos de la interfaz
+                string usuario = TxtUsuario.Text;
+                string password = TxtPass.Text;
+
+                // 2. Validación a través de la Capa de Negocio (Singleton)
+                EUsuario usuarioLogueado = NLogin.Instancia.ValidarAcceso(usuario, password);
+
+                // 3. Respuesta al usuario
+                MessageBox.Show($"¡Bienvenido {usuarioLogueado.Nombre}!", "Acceso Permitido",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // 4. Lógica de navegación (opcional)
+                // FormPrincipal main = new FormPrincipal();
+                // main.Show();
+                // this.Hide();
             }
+            catch (Exception ex)
+            {
+                // Manejo de errores (Usuario incorrecto, campos vacíos, etc.)
+                MessageBox.Show(ex.Message, "Error de Inicio de Sesión",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
 
         private void button2_Click(object sender, EventArgs e)

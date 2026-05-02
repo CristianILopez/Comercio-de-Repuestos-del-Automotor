@@ -12,6 +12,8 @@ namespace Capa_UI
 {
     public partial class FRMVentas : Form
     {
+        private FRMCarrito frm = null;
+
         public FRMVentas()
         {
             InitializeComponent();
@@ -31,8 +33,14 @@ namespace Capa_UI
 
         private void BTNCarro_Click(object sender, EventArgs e)
         {
-            FRMCarrito FRM = new FRMCarrito();
-            FRM.Show();
+            if (frm == null || frm.IsDisposed)
+            {
+                frm = new FRMCarrito();
+            }
+
+            // 3. La mostramos
+            frm.Show();
+            frm.BringToFront(); // Esto asegura que se vea si quedó detrás de otra ventana
         }
 
         private void DGVListado_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -50,6 +58,11 @@ namespace Capa_UI
             /*agregar pieza y cantidad al carrito*/
 
             MessageBox.Show("Agrega pieza N°... con X unidades");
+        }
+
+        private void FRMVentas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
