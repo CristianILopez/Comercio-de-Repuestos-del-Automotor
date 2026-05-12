@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FRMVentas : Form
+    public partial class FRMListaVentas : Form
     {
-        private FRMCarrito frm = null;
+        private FRMCarritoCompra frm = null;
 
-        public FRMVentas()
+        public FRMListaVentas()
         {
             InitializeComponent();
         }
@@ -35,7 +35,7 @@ namespace Capa_UI
         {
             if (frm == null || frm.IsDisposed)
             {
-                frm = new FRMCarrito();
+                frm = new FRMCarritoCompra();
             }
 
             // 3. La mostramos

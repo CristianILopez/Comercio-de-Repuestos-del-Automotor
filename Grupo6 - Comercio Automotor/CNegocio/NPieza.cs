@@ -10,7 +10,7 @@ namespace CNegocio
 {
     internal class NPieza
     {
-        public bool GuardarPieza(EPieza pieza)
+       /*public bool GuardarPieza(EPieza pieza)
         {
             // Validaciones de negocio
             if (string.IsNullOrEmpty(pieza.Nombre))
@@ -22,6 +22,6 @@ namespace CNegocio
             // Si pasa las reglas, llamamos a la capa de datos
             DPieza datos = new DPieza();
             return InsertarPiezaCarrito(pieza);
-        }
+        }*/
     }
 }

@@ -19,7 +19,7 @@ namespace Capa_UI
 
         private void BTNAgregar_Click(object sender, EventArgs e)
         {
-            FRMModPieza fRM = new FRMModPieza("Modificar Pieza");
+            FRMModificarPieza fRM = new FRMModificarPieza("Modificar Pieza");
             fRM.Show();
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FRMPrecios : Form
+    public partial class FRMConsultarPrecio : Form
     {
-        public FRMPrecios()
+        public FRMConsultarPrecio()
         {
             InitializeComponent();
         }
@@ -26,6 +26,11 @@ namespace Capa_UI
         {
             FRMModPrecio frm = new FRMModPrecio();
             frm.ShowDialog();
+        }
+
+        private void FRMConsultarPrecio_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

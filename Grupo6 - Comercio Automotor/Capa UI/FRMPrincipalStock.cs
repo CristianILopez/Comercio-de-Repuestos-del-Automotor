@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FrmPrincipalStock : Form
+    public partial class FRMPrincipalStock : Form
     {
-        public FrmPrincipalStock()
+        public FRMPrincipalStock()
         {
             InitializeComponent();
         }
@@ -36,7 +36,7 @@ namespace Capa_UI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FRMModPieza FRM = new FRMModPieza("Nueva Pieza");
+            FRMModificarPieza FRM = new FRMModificarPieza("Nueva Pieza");
             FRM.ShowDialog();
         }
     }

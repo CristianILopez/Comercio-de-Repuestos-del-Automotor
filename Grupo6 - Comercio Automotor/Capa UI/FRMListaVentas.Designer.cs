@@ -1,6 +1,6 @@
 ﻿namespace Capa_UI
 {
-    partial class FRMVentas
+    partial class FRMListaVentas
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -159,7 +159,7 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Categoria";
             // 
-            // FRMVentas
+            // FRMListaVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,7 +173,7 @@
             this.Controls.Add(this.CHKItem);
             this.Controls.Add(this.BTNCancelar);
             this.Controls.Add(this.BTNBuscar);
-            this.Name = "FRMVentas";
+            this.Name = "FRMListaVentas";
             this.Text = "Lista de Venta";
             this.Load += new System.EventHandler(this.FRMVentas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGVListado)).EndInit();

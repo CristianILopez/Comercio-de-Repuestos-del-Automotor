@@ -50,7 +50,7 @@ namespace Capa_UI
 
         private void button5_Click(object sender, EventArgs e)
         {
-            try
+          /*  try
             {
                 // 1. Creamos la entidad y la cargamos con lo que el usuario escribió
                 PiezaEntidad nuevaPieza = new PiezaEntidad();
@@ -70,7 +70,12 @@ namespace Capa_UI
             catch (Exception ex)
             {
                 MessageBox.Show("Error al agregar: " + ex.Message);
-            }
+            }*/
+        }
+
+        private void FRMCarrito_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Capa_UI
 {
-    partial class FRMModPieza
+    partial class FRMModificarPieza
     {
         /// <summary>
         /// Required designer variable.
@@ -188,7 +188,7 @@
             this.BTNAgregarPieza.Text = "Agregar Pieza";
             this.BTNAgregarPieza.UseVisualStyleBackColor = true;
             // 
-            // FRMModPieza
+            // FRMModificarPieza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -210,7 +210,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BTNModPieza);
             this.Controls.Add(this.BTNSalir);
-            this.Name = "FRMModPieza";
+            this.Name = "FRMModificarPieza";
             this.Text = "Piezas";
             this.Load += new System.EventHandler(this.FRMModPieza_Load);
             this.ResumeLayout(false);

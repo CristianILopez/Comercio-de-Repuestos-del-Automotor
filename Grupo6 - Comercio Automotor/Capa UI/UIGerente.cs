@@ -24,7 +24,7 @@ namespace Capa_UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FRMProveedor frm = new FRMProveedor();
+            FRMConsultarProveedor frm = new FRMConsultarProveedor();
             frm.ShowDialog();
         }
 
@@ -36,7 +36,7 @@ namespace Capa_UI
 
         private void button4_Click(object sender, EventArgs e)
         {
-            FRMPrecios fRM = new FRMPrecios();
+            FRMConsultarPrecio fRM = new FRMConsultarPrecio();
             fRM.ShowDialog();
         }
 

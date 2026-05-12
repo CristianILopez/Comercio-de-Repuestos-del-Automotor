@@ -1,6 +1,6 @@
 ﻿namespace Capa_UI
 {
-    partial class FrmPrincipalStock
+    partial class FRMPrincipalStock
     {
         /// <summary>
         /// Required designer variable.
@@ -74,7 +74,7 @@
             this.BTNStock.UseVisualStyleBackColor = true;
             this.BTNStock.Click += new System.EventHandler(this.BTNStock_Click);
             // 
-            // FrmPrincipalStock
+            // FRMPrincipalStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -83,7 +83,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "FrmPrincipalStock";
+            this.Name = "FRMPrincipalStock";
             this.Text = "Gestion de Stock";
             this.ResumeLayout(false);
 

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class Vendedor : Form
+    public partial class UIAdminSistema : Form
     {
-        public Vendedor()
+        public UIAdminSistema()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

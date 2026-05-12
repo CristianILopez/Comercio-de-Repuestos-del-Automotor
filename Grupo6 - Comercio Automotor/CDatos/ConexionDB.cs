@@ -2,7 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-
+using CEntidades;
+using CDatos;
 
 // ============================================================
 // 1. CLASE DE CREDENCIALES: Centraliza los datos de acceso

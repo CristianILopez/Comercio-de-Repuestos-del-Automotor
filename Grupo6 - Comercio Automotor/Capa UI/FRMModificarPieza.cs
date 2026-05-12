@@ -11,10 +11,10 @@ using System.Windows.Forms;
 namespace Capa_UI
 {
 
-    public partial class FRMModPieza : Form
+    public partial class FRMModificarPieza : Form
     {
         private string operacion;
-        public FRMModPieza(string modo)
+        public FRMModificarPieza(string modo)
         {
             InitializeComponent();
             this.operacion = modo;

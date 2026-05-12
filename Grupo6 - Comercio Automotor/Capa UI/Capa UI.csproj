@@ -46,59 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FRMBuscarStock.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FRMBuscarStock.Designer.cs">
+      <DependentUpon>FRMBuscarStock.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form10.cs">
+    <Compile Include="FRMListaVentas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form10.Designer.cs">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <Compile Include="FRMListaVentas.Designer.cs">
+      <DependentUpon>FRMListaVentas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="FRMConsultarProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="FRMConsultarProveedor.Designer.cs">
+      <DependentUpon>FRMConsultarProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="FRMCarritoCompra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="FRMCarritoCompra.Designer.cs">
+      <DependentUpon>FRMCarritoCompra.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="FRMNuevoPedido.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="FRMNuevoPedido.Designer.cs">
+      <DependentUpon>FRMNuevoPedido.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="FRMPrincipalStock.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="FRMPrincipalStock.Designer.cs">
+      <DependentUpon>FRMPrincipalStock.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="FRMModificarPieza.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="FRMModificarPieza.Designer.cs">
+      <DependentUpon>FRMModificarPieza.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8.cs">
+    <Compile Include="FRMConsultarPrecio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.cs">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <Compile Include="FRMConsultarPrecio.Designer.cs">
+      <DependentUpon>FRMConsultarPrecio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9.cs">
+    <Compile Include="FRMModPrecio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <Compile Include="FRMModPrecio.Designer.cs">
+      <DependentUpon>FRMModPrecio.cs</DependentUpon>
     </Compile>
     <Compile Include="FRMVentaVendedor.cs">
       <SubType>Form</SubType>
@@ -114,44 +114,56 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIAdminSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIAdminSistema.Designer.cs">
+      <DependentUpon>UIAdminSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIEncStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIEncStock.Designer.cs">
+      <DependentUpon>UIEncStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIGerente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UIGerente.Designer.cs">
       <DependentUpon>UIGerente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vendedor.cs">
+    <Compile Include="UIVendedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vendedor.Designer.cs">
-      <DependentUpon>Vendedor.cs</DependentUpon>
+    <Compile Include="UIVendedor.Designer.cs">
+      <DependentUpon>UIVendedor.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FRMBuscarStock.resx">
+      <DependentUpon>FRMBuscarStock.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form10.resx">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <EmbeddedResource Include="FRMListaVentas.resx">
+      <DependentUpon>FRMListaVentas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="FRMConsultarProveedor.resx">
+      <DependentUpon>FRMConsultarProveedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="FRMCarritoCompra.resx">
+      <DependentUpon>FRMCarritoCompra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="FRMNuevoPedido.resx">
+      <DependentUpon>FRMNuevoPedido.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="FRMPrincipalStock.resx">
+      <DependentUpon>FRMPrincipalStock.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="FRMModificarPieza.resx">
+      <DependentUpon>FRMModificarPieza.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <EmbeddedResource Include="FRMConsultarPrecio.resx">
+      <DependentUpon>FRMConsultarPrecio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <EmbeddedResource Include="FRMModPrecio.resx">
+      <DependentUpon>FRMModPrecio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMVentaVendedor.resx">
       <DependentUpon>FRMVentaVendedor.cs</DependentUpon>
@@ -168,11 +180,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UIEncStock.resx">
+      <DependentUpon>UIEncStock.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UIGerente.resx">
       <DependentUpon>UIGerente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vendedor.resx">
-      <DependentUpon>Vendedor.cs</DependentUpon>
+    <EmbeddedResource Include="UIVendedor.resx">
+      <DependentUpon>UIVendedor.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
