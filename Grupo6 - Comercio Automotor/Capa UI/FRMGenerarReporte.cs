@@ -10,31 +10,16 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FRMConsultarProveedor : Form
+    public partial class FRMGenerarReporte : Form
     {
-        public FRMConsultarProveedor()
+        public FRMGenerarReporte()
         {
             InitializeComponent();
         }
 
-        private void BTNCancelar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void Form10_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BTNAgregarProv_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

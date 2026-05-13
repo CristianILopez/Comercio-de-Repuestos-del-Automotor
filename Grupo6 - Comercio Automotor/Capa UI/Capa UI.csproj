@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FRMBuscarStock.cs">
+    <Compile Include="FRMAgregarNuevoUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRMBuscarStock.Designer.cs">
-      <DependentUpon>FRMBuscarStock.cs</DependentUpon>
+    <Compile Include="FRMAgregarNuevoUsuario.Designer.cs">
+      <DependentUpon>FRMAgregarNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBuscarPieza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBuscarPieza.Designer.cs">
+      <DependentUpon>FRMBuscarPieza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBuscarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBuscarUsuario.Designer.cs">
+      <DependentUpon>FRMBuscarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMGenerarReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMGenerarReporte.Designer.cs">
+      <DependentUpon>FRMGenerarReporte.cs</DependentUpon>
     </Compile>
     <Compile Include="FRMListaVentas.cs">
       <SubType>Form</SubType>
@@ -76,11 +94,11 @@
     <Compile Include="FRMNuevoPedido.Designer.cs">
       <DependentUpon>FRMNuevoPedido.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRMPrincipalStock.cs">
+    <Compile Include="UIEncStock.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRMPrincipalStock.Designer.cs">
-      <DependentUpon>FRMPrincipalStock.cs</DependentUpon>
+    <Compile Include="UIEncStock.Designer.cs">
+      <DependentUpon>UIEncStock.cs</DependentUpon>
     </Compile>
     <Compile Include="FRMModificarPieza.cs">
       <SubType>Form</SubType>
@@ -120,12 +138,6 @@
     <Compile Include="UIAdminSistema.Designer.cs">
       <DependentUpon>UIAdminSistema.cs</DependentUpon>
     </Compile>
-    <Compile Include="UIEncStock.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UIEncStock.Designer.cs">
-      <DependentUpon>UIEncStock.cs</DependentUpon>
-    </Compile>
     <Compile Include="UIGerente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,8 +150,17 @@
     <Compile Include="UIVendedor.Designer.cs">
       <DependentUpon>UIVendedor.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FRMBuscarStock.resx">
-      <DependentUpon>FRMBuscarStock.cs</DependentUpon>
+    <EmbeddedResource Include="FRMAgregarNuevoUsuario.resx">
+      <DependentUpon>FRMAgregarNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMBuscarPieza.resx">
+      <DependentUpon>FRMBuscarPieza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMBuscarUsuario.resx">
+      <DependentUpon>FRMBuscarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMGenerarReporte.resx">
+      <DependentUpon>FRMGenerarReporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMListaVentas.resx">
       <DependentUpon>FRMListaVentas.cs</DependentUpon>
@@ -153,8 +174,8 @@
     <EmbeddedResource Include="FRMNuevoPedido.resx">
       <DependentUpon>FRMNuevoPedido.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRMPrincipalStock.resx">
-      <DependentUpon>FRMPrincipalStock.cs</DependentUpon>
+    <EmbeddedResource Include="UIEncStock.resx">
+      <DependentUpon>UIEncStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRMModificarPieza.resx">
       <DependentUpon>FRMModificarPieza.cs</DependentUpon>
@@ -180,8 +201,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UIEncStock.resx">
-      <DependentUpon>UIEncStock.cs</DependentUpon>
+    <EmbeddedResource Include="UIAdminSistema.resx">
+      <DependentUpon>UIAdminSistema.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIGerente.resx">
       <DependentUpon>UIGerente.cs</DependentUpon>

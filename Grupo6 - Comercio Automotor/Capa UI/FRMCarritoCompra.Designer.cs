@@ -1,6 +1,6 @@
 ﻿namespace Capa_UI
 {
-    partial class FRMCarrito
+    partial class FRMCarritoCompra
     {
         /// <summary>
         /// Required designer variable.
@@ -94,7 +94,7 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // FRMCarrito
+            // FRMCarritoCompra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,7 +105,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "FRMCarrito";
+            this.Name = "FRMCarritoCompra";
             this.Text = "Carrito de Compras";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FRMCarrito_FormClosing);
             this.Load += new System.EventHandler(this.FRMCarrito_Load);

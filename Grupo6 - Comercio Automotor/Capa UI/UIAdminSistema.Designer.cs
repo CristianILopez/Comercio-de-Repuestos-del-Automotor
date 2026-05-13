@@ -32,6 +32,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.BTNbuscarPieza = new System.Windows.Forms.Button();
             this.BTNPedido = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -52,15 +53,17 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Salir del sistema";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // BTNbuscarPieza
             // 
-            this.BTNbuscarPieza.Location = new System.Drawing.Point(143, 220);
+            this.BTNbuscarPieza.Location = new System.Drawing.Point(143, 197);
             this.BTNbuscarPieza.Name = "BTNbuscarPieza";
             this.BTNbuscarPieza.Size = new System.Drawing.Size(163, 68);
             this.BTNbuscarPieza.TabIndex = 6;
             this.BTNbuscarPieza.Text = "Buscar Usuario";
             this.BTNbuscarPieza.UseVisualStyleBackColor = true;
+            this.BTNbuscarPieza.Click += new System.EventHandler(this.BTNbuscarPieza_Click);
             // 
             // BTNPedido
             // 
@@ -70,12 +73,24 @@
             this.BTNPedido.TabIndex = 5;
             this.BTNPedido.Text = "Agregar Nuevo Usuario";
             this.BTNPedido.UseVisualStyleBackColor = true;
+            this.BTNPedido.Click += new System.EventHandler(this.BTNPedido_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(143, 271);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(163, 68);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Generar Reportes";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // UIAdminSistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 493);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.BTNbuscarPieza);
@@ -93,5 +108,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button BTNbuscarPieza;
         private System.Windows.Forms.Button BTNPedido;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -24,7 +24,7 @@ namespace Capa_UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FRMConsultarProveedor frm = new FRMConsultarProveedor();
+            var frm = new FRMConsultarProveedor();
             frm.ShowDialog();
         }
 

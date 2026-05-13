@@ -12,9 +12,9 @@ using CNegocio;
 
 namespace Capa_UI
 {
-    public partial class FRMCarrito : Form
+    public partial class FRMCarritoCompra : Form
     {
-        public FRMCarrito()
+        public FRMCarritoCompra()
         {
             InitializeComponent();
         }

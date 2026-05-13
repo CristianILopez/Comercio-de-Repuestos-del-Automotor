@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FRMBuscarStock : Form
+    public partial class FRMBuscarPieza : Form
     {
-        public FRMBuscarStock()
+        public FRMBuscarPieza()
         {
             InitializeComponent();
         }
@@ -31,6 +31,11 @@ namespace Capa_UI
         private void BTNCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void FRMBuscarStock_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

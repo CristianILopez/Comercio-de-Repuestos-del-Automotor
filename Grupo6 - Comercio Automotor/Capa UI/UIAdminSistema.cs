@@ -16,5 +16,28 @@ namespace Capa_UI
         {
             InitializeComponent();
         }
+
+        private void BTNPedido_Click(object sender, EventArgs e)
+        {
+            var frm = new FRMAgregarNuevoUsuario();
+            frm.ShowDialog();
+        }
+
+        private void BTNbuscarPieza_Click(object sender, EventArgs e)
+        {
+            var frm = new FRMBuscarUsuario();
+            frm.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var frm = new FRMGenerarReporte();
+            frm.ShowDialog();
+        }
     }
 }

@@ -17,9 +17,27 @@ namespace Capa_UI
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FRMBuscarPieza FRM = new FRMBuscarPieza();
+            FRM.Show();
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTNStock_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FRMModificarPieza FRM = new FRMModificarPieza("Nueva Pieza");
+            FRM.ShowDialog();
         }
     }
 }

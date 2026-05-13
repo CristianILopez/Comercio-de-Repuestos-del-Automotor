@@ -10,31 +10,26 @@ using System.Windows.Forms;
 
 namespace Capa_UI
 {
-    public partial class FRMConsultarProveedor : Form
+    public partial class FRMBuscarUsuario : Form
     {
-        public FRMConsultarProveedor()
+        public FRMBuscarUsuario()
         {
             InitializeComponent();
         }
 
-        private void BTNCancelar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void Form10_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void BTNAgregarProv_Click(object sender, EventArgs e)
         {
+            //Consulta procedimiento almacenado con la base de datos
+        }
 
+        private void BTNBuscar_Click(object sender, EventArgs e)
+        {
+            //Consulta procedimiento almacenado con la base de datos
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //Consulta procedimiento almacenado con la base de datos
         }
     }
 }

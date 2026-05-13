@@ -52,6 +52,7 @@
             this.BTNbuscarPieza.TabIndex = 1;
             this.BTNbuscarPieza.Text = "Buscar Pieza";
             this.BTNbuscarPieza.UseVisualStyleBackColor = true;
+            this.BTNbuscarPieza.Click += new System.EventHandler(this.BTNbuscarPieza_Click);
             // 
             // button3
             // 
@@ -61,6 +62,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Salir del sistema";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 

@@ -19,7 +19,19 @@ namespace Capa_UI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var frm = new FRMNuevoPedido();
+            frm.ShowDialog();
+        }
 
+        private void BTNbuscarPieza_Click(object sender, EventArgs e)
+        {
+            var frm = new FRMBuscarPieza();
+            frm.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
